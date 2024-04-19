@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.note{
+    width: 470px;
+    height: 350px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 2px black; */
+    margin: 20px;
+}
+
+.inputs{
+    /* background: yellow; */
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+
+.input-title{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: transparent;
+}
+
+.input-title:focus {
+    outline: none;
+
+}
+
+.input-content:focus {
+    outline: none;
+
+}
+
+.input-content{
+    width: 100%;
+    height: 220px;
+    border: none;
+    background: transparent;
+}
+
+
+.buttons{
+    height: 40px;
+    width: 40px;
+    /* border-radius: 4px; */
+    /* border: solid 2px black; */
+    /* background: transparent; */
+    align-items: center;
+    border-radius: 50%;
+    background: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+.note-view{
+    width: 470px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.note-heading{
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+.note-content{
+    text-align: left;
+}
+
+.two-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-button button{
+    margin: 4%;
+}
+
+.buttons i{
+    color: white;
+}
